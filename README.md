@@ -18,7 +18,7 @@ Dalam perkembangan teknologi komputer modern, computer vision telah menjadi sala
     d) Motor Trail
 
 - Input berupa gambar sisi samping motor
-- Dataset berjumlah ±600 gambar per kategori di Roboflow
+- Dataset berjumlah ±1500 gambar per kategori di Roboflow
 - Sistem dikembangkan menggunakan Python dan YOLOv8
   
 ## Tujuan
