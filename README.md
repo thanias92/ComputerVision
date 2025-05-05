@@ -3,61 +3,41 @@
 **Project Name**: Pendeteksi Jenis Motor (Motorcycle Type Detection)  
 **Student Name**: Bethania Simangunsong  
 **Course/Institution**: Computer Vision/Politeknik Caltex Riau  
-**Date**: 5/1/2025  
-**Progress**: 25% Complete  
 
-## Table of Contents
-- [Project Description](#project-description)
-- [25% Progress Summary](#25-progress-summary)
-- [Data Pipeline](#data-pipeline)
-- [Model Experiments](#model-experiments)
-- [Next Steps](#next-steps)
+## Latar Belakang**
+- Computer vision berkembang pesat sebagai bagian dari otomatisasi modern.
+- Salah satu penerapannya adalah dalam identifikasi kendaraan bermotor.
+- Sistem ini dirancang untuk mengenali jenis motor berdasarkan citra visual guna mendukung efisiensi di bidang pengawasan, manajemen kendaraan, dan analisis lalu lintas.
 
-## Project Overview
-A computer vision system to detect potholes in real-time using YOLO for road maintenance. 
+**Perumusan Masalah**:
+Bagaimana merancang dan membangun sistem berbasis YOLOv8 yang dapat mengidentifikasi jenis motor dari gambar atau video dengan klasifikasi yang akurat dan efisien?
 
-**Key Features Target**:
-- Accuracy >70% on motorcycle type
+## Batasan Masalah
+- Jenis motor yang dikenali:
+    a) Motor Bebek
+    b) Motor Matic
+    c) Motor Sport
+    d) Motor Trail
 
-## 25% Progress Summary
-✅ **Completed** | ⏳ **In Progress** | ❌ **Pending**
+- Input berupa gambar sisi samping motor
+- Dataset berjumlah ±160 gambar per kategori di Roboflow
+- Sistem dikembangkan menggunakan Python dan YOLOv8
+  
+## Tujuan
+- Mendeteksi dan mengklasifikasikan jenis motor
+- Menghasilkan hasil klasifikasi otomatis dengan akurasi tinggi
 
-| Task                | Status | Details                          |
-|---------------------|--------|----------------------------------|
-| Dataset Collection  | ✅     | 640 images from https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa        |
-| Annotation          | ⏳     | 640 images labeled (VGG format)  |
-| Baseline Model      | ✅     | YOLOv8    |
-| Preprocessing       | ⏳     | CLAHE + Gamma correction         |
+## Manfaat
+- Mendukung sistem pengawasan dan manajemen kendaraan
 
-## Data Pipeline
-```python```
-## Data Preparation
-### Dataset Source
-```Roboflow```
-https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
-### Dataset Structure
-    Pothole-Dataset/
-    ├── test/         # Raw road images
-    ├── train/        # Enhanced images
-    ├── valid/        # Pothole annotations
-    └── data.yaml
+## Target Sistem
+- Mendeteksi objek motor dari citra atau video
+- Mengklasifikasikan motor ke 4 jenis: Bebek, Matic, Sport, Trail
+- Mencapai akurasi klasifikasi ≥ 80%
+- Antarmuka sederhana untuk input dan output hasil
+- Menggunakan dataset Roboflow (~160 gambar per label)
 
-### Annotation Example
-    train: ../train/images
-    val: ../valid/images
-    test: ../test/images
-    names: ['motorBebek', 'motorMatic', 'motorSport', 'motorTrail']
-## Model Experiment
-### Framework Model 
-```YOLOv8``` **Optimal for pothole detection** due to:
-| Feature               | Benefit for Pothole Detection       |
-|-----------------------|-------------------------------------|
-| 🚀 **High Speed**     | 30-50 FPS on mid-range GPUs (crucial for real-time road analysis) |
-| 🎯 **Improved Accuracy** | 5-10% higher mAP than YOLOv5 on small objects like potholes |
-| 📱 **Multiple Sizes** | Nano (for edge devices) to XLarge (for server processing) |
-| 🔧 **Simplified API** | Fewer lines of code for training compared to previous versions |
-
-## Next Step
-- Data augmentation (mosaic, rotation)
-- Hyperparameter tuning (optimizer, LR)
-- Training Model YOLOv8
+## Tools & Teknologi
+- Bahasa Pemrograman: Python
+- Object Detection: YOLOv8
+- Dataset: Roboflow (4 label, ~160 image/label)
