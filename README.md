@@ -9,7 +9,7 @@
 - Salah satu penerapannya adalah dalam identifikasi kendaraan bermotor.
 - Sistem ini dirancang untuk mengenali jenis motor berdasarkan citra visual guna mendukung efisiensi di bidang pengawasan, manajemen kendaraan, dan analisis lalu lintas.
 
-**Perumusan Masalah
+## Perumusan Masalah
 Bagaimana merancang dan membangun sistem berbasis YOLOv8 yang dapat mengidentifikasi jenis motor dari gambar atau video dengan klasifikasi yang akurat dan efisien?
 
 ## Batasan Masalah
