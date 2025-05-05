@@ -20,7 +20,7 @@ Bagaimana merancang dan membangun sistem berbasis YOLOv8 yang dapat mengidentifi
     d) Motor Trail
 
 - Input berupa gambar sisi samping motor
-- Dataset berjumlah ±160 gambar per kategori di Roboflow
+- Dataset berjumlah ±600 gambar per kategori di Roboflow
 - Sistem dikembangkan menggunakan Python dan YOLOv8
   
 ## Tujuan
@@ -35,9 +35,9 @@ Bagaimana merancang dan membangun sistem berbasis YOLOv8 yang dapat mengidentifi
 - Mengklasifikasikan motor ke 4 jenis: Bebek, Matic, Sport, Trail
 - Mencapai akurasi klasifikasi ≥ 80%
 - Antarmuka sederhana untuk input dan output hasil
-- Menggunakan dataset Roboflow (~160 gambar per label)
+- Menggunakan dataset Roboflow
 
 ## Tools & Teknologi
 - Bahasa Pemrograman: Python
 - Object Detection: YOLOv8
-- Dataset: Roboflow (4 label, ~160 image/label) https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
+- Dataset: Roboflow https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
