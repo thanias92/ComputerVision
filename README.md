@@ -17,9 +17,7 @@
 A computer vision system to detect potholes in real-time using YOLO for road maintenance. 
 
 **Key Features Target**:
-- Real-time detection (30+ FPS)
-- Accuracy >70% on uneven roads
-- Web compatibility
+- Accuracy >70% on motorcycle type
 
 ## 25% Progress Summary
 ✅ **Completed** | ⏳ **In Progress** | ❌ **Pending**
@@ -48,7 +46,7 @@ https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
     train: ../train/images
     val: ../valid/images
     test: ../test/images
-    names: ['Hump', 'crack', 'curb', 'damage', 'dash', 'distressed', 'grate', 'manhole', 'marking', 'pothole', 'utility', 'vehicle']
+    names: ['motorBebek', 'motorMatic', 'motorSport', 'motorTrail']
 ## Model Experiment
 ### Framework Model 
 ```YOLOv8``` **Optimal for pothole detection** due to:
