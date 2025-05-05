@@ -40,4 +40,4 @@ Bagaimana merancang dan membangun sistem berbasis YOLOv8 yang dapat mengidentifi
 ## Tools & Teknologi
 - Bahasa Pemrograman: Python
 - Object Detection: YOLOv8
-- Dataset: Roboflow (4 label, ~160 image/label)
+- Dataset: Roboflow (4 label, ~160 image/label) https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
