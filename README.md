@@ -8,7 +8,7 @@
 Dalam perkembangan teknologi komputer modern, computer vision telah menjadi salah satu bidang yang banyak dimanfaatkan untuk mendukung otomatisasi dalam kehidupan sehari-hari. Salah satu implementasinya adalah dalam pengenalan objek, termasuk kendaraan bermotor. Proyek Pendeteksi Jenis Motor ini bertujuan untuk mengidentifikasi jenis motor secara otomatis berdasarkan citra visual, sehingga dapat meningkatkan efisiensi dalam sistem pengawasan, manajemen parkir, atau pengumpulan data lalu lintas.
 
 ## Perumusan Masalah
- Merancang dan membangun sistem berbasis computer vision yang mampu mengidentifikasi jenis motor dari gambar atau video dengan klasifikasi yang akurat
+ Merancang dan membangun sistem berbasis computer vision yang mampu mengidentifikasi jenis motor dari gambar dengan klasifikasi yang akurat
 
 ## Batasan Masalah
 - Jenis motor yang dikenali:
