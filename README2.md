@@ -28,12 +28,12 @@ Dalam perkembangan teknologi komputer modern, computer vision telah menjadi sala
 ## Manfaat
 - Mendukung sistem pengawasan dan manajemen kendaraan
 
-## Hasil Prediksi
-- Model belum mendeteksi secara akurat
-  
-![image](https://github.com/user-attachments/assets/b6676edf-b399-48e7-93b7-66aa7dc69f5b)
-
 ## Tools & Teknologi
 - Bahasa Pemrograman: Python
 - Object Detection: YOLOv8
 - Dataset: Roboflow https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
+
+## Hasil Prediksi
+- Model belum mendeteksi secara akurat
+  
+![image](https://github.com/user-attachments/assets/b6676edf-b399-48e7-93b7-66aa7dc69f5b)
