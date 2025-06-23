@@ -1,4 +1,4 @@
-# Computer Vision Project Progress Report (25%)
+# Computer Vision Project Report
 
 **Project Name**: Pendeteksi Jenis Motor (Motorcycle Type Detection)  
 **Student Name**: Bethania Simangunsong  
