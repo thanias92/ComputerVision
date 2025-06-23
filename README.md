@@ -1,6 +1,6 @@
 # Computer Vision Project Report
 
-**Project Name**: Pendeteksi Jenis Motor (Motorcycle Type Detection)  
+**Project Name**: Motorcycle Type Detection (Pendeteksi Jenis Motor)
 **Student Name**: Bethania Simangunsong  
 **Course/Institution**: Computer Vision/Politeknik Caltex Riau  
 
