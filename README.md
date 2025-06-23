@@ -4,39 +4,39 @@
 **Student Name**: Bethania Simangunsong  
 **Course/Institution**: Computer Vision/Politeknik Caltex Riau  
 
-## Latar Belakang
-Dalam perkembangan teknologi komputer modern, computer vision telah menjadi salah satu bidang yang banyak dimanfaatkan untuk mendukung otomatisasi dalam kehidupan sehari-hari. Salah satu implementasinya adalah dalam pengenalan objek, termasuk kendaraan bermotor. Proyek Pendeteksi Jenis Motor ini bertujuan untuk mengidentifikasi jenis motor secara otomatis berdasarkan citra visual, sehingga dapat meningkatkan efisiensi dalam sistem pengawasan, manajemen parkir, atau pengumpulan data lalu lintas.
+## Background
+In the development of modern computer technology, computer vision has become one of the fields widely used to support automation in daily life. One of its implementations is in object recognition, including motor vehicles. This Motorcycle Type Detection project aims to automatically identify motorcycle types based on visual images, thereby improving efficiency in surveillance systems, parking management, or traffic data collection.
 
-## Perumusan Masalah
- Merancang dan membangun sistem berbasis computer vision yang mampu mengidentifikasi jenis motor dari gambar dengan klasifikasi yang akurat
+## Problem Statement
+To design and build a computer vision-based system capable of accurately identifying motorcycle types from images.
 
-## Batasan Masalah
-- Jenis motor yang dikenali:
+## Scope of the Problem
+- Recognizable motorcycle types:
     a) Motor Bebek
     b) Motor Matic
     c) Motor Sport
     d) Motor Trail
     e) Motor Listrik
 
-- Input berupa gambar sisi samping motor
-- Dataset berjumlah ±1500 gambar per kategori di Roboflow
-- Sistem dikembangkan menggunakan Python dan YOLOv8
+- Input is a side-view image of the motorcycle
+- Dataset contains approximately ±1500 images per category from Roboflow
+- The system is developed using Python and YOLOv8
   
-## Tujuan
-- Mendeteksi dan mengklasifikasikan jenis motor
-- Menghasilkan hasil klasifikasi otomatis dengan akurasi tinggi
+## Objectives
+- To detect and classify motorcycle types
+- To produce automatic classification results with high accuracy
 
-## Manfaat
-- Mendukung sistem pengawasan dan manajemen kendaraan
+## Benefit
+- Supports vehicle monitoring and management systems
 
-## Tools & Teknologi
-- Bahasa Pemrograman: Python
+## Tools & Technologies
+- Programming Language: Python
 - Object Detection: YOLOv8
 - Dataset: Roboflow https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
 
-## Hasil Prediksi
-- Model belum mendeteksi secara akurat
-- Hasil prediksi yaitu 5.11%
+## Prediction Results
+- The model has not yet detected accurately
+- Current prediction accuracy: 5.11%
   
 ![image](https://github.com/user-attachments/assets/b6676edf-b399-48e7-93b7-66aa7dc69f5b)
 
