@@ -16,6 +16,7 @@ Dalam perkembangan teknologi komputer modern, computer vision telah menjadi sala
     b) Motor Matic
     c) Motor Sport
     d) Motor Trail
+    e) Motor Listrik
 
 - Input berupa gambar sisi samping motor
 - Dataset berjumlah ±1500 gambar per kategori di Roboflow
