@@ -36,5 +36,6 @@ Dalam perkembangan teknologi komputer modern, computer vision telah menjadi sala
 
 ## Hasil Prediksi
 - Model belum mendeteksi secara akurat
+- Hasil prediksi yaitu 5.11%
   
 ![image](https://github.com/user-attachments/assets/b6676edf-b399-48e7-93b7-66aa7dc69f5b)
