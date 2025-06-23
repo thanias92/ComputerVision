@@ -39,3 +39,7 @@ Dalam perkembangan teknologi komputer modern, computer vision telah menjadi sala
 - Hasil prediksi yaitu 5.11%
   
 ![image](https://github.com/user-attachments/assets/b6676edf-b399-48e7-93b7-66aa7dc69f5b)
+
+- Tampilan deploy menggunakan Gradio
+ <img width="959" alt="image" src="https://github.com/user-attachments/assets/4ece439f-26bf-4e80-b986-b72aedf5397e" />
+
