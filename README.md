@@ -41,10 +41,18 @@ To design and build a computer vision-based system capable of accurately identif
 - Dataset: Roboflow https://universe.roboflow.com/bethaniaworkspace/motorcycledetection-plboa
 
 ## Prediction Results
-- The model has not yet detected accurately
-- Current prediction accuracy: 5.11%
+- The model has detected accurately
+- Current prediction accuracy: 81%
   
-![image](https://github.com/user-attachments/assets/b6676edf-b399-48e7-93b7-66aa7dc69f5b)
+![image](https://github.com/user-attachments/assets/796c9e0d-7d06-4659-baad-22ba4b47530b)
+![image](https://github.com/user-attachments/assets/0bd2f291-ecad-4471-92de-a0c2a29ec615)
+![image](https://github.com/user-attachments/assets/18907cba-8baa-4248-8069-d6f0e8049ce0)
+![image](https://github.com/user-attachments/assets/37341a6d-a66f-4cd0-9ef7-f275acdc5fe4)
+
+
+
+
+
 
 - UI Interface
  <img width="959" alt="image" src="https://github.com/user-attachments/assets/4ece439f-26bf-4e80-b986-b72aedf5397e" />
