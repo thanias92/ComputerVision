@@ -55,5 +55,6 @@ To design and build a computer vision-based system capable of accurately identif
 
 
 - UI Interface
- <img width="959" alt="image" src="https://github.com/user-attachments/assets/4ece439f-26bf-4e80-b986-b72aedf5397e" />
+ ![image](https://github.com/user-attachments/assets/f086b649-6de0-4333-8803-cdc1f3b65992)
+
 
