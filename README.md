@@ -43,6 +43,7 @@ To design and build a computer vision-based system capable of accurately identif
 ## Prediction Results
 - The model has detected accurately
 - Current prediction accuracy: 81%
+
   ![image](https://github.com/user-attachments/assets/796c9e0d-7d06-4659-baad-22ba4b47530b)
   ![image](https://github.com/user-attachments/assets/0bd2f291-ecad-4471-92de-a0c2a29ec615)
   ![image](https://github.com/user-attachments/assets/18907cba-8baa-4248-8069-d6f0e8049ce0)
