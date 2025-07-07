@@ -49,8 +49,9 @@ To design and build a computer vision-based system capable of accurately identif
 ![image](https://github.com/user-attachments/assets/18907cba-8baa-4248-8069-d6f0e8049ce0)
 ![image](https://github.com/user-attachments/assets/37341a6d-a66f-4cd0-9ef7-f275acdc5fe4)
 
-
-
+- However, the limitation of this model is that there is no dataset that displays the shape of a motorcycle from the front side so that the detected object is not recognized.
+  ![image](https://github.com/user-attachments/assets/07611257-94e7-4bb8-9570-118c7777ef72)
+  ![image](https://github.com/user-attachments/assets/10d193f8-dad5-4e02-9d90-ca2588abb6d2)
 
 
 
